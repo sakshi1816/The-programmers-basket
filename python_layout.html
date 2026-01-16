@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python - The Programmer's Basket</title>
+    <style>
+        /* Common styles across all pages */
+        body {
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f6f9;
+            background-image: url('https://wallpapercave.com/wp/wp3105546.png');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #34495e;
+        }
+
+        header, footer {
+            background-color: #03172a;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 1;
+            padding: 5;
+            text-align: center;
+            background-color: #2c3e50;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 14px 20px;
+        }
+
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav ul li a:hover {
+            background-color: #356ea8;
+            border-radius: 5px;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(201, 201, 201, 0.1);
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #34495e;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #53e8ca;
+            color: #fff;
+        }
+
+        .content {
+            width: 70%;
+            margin-left: 5%;
+            background-color: #191b1aab;
+            color: #fffbfb;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .documents 
+        {
+            background-color: #5a646fd8;
+            padding: 5px 20px;
+            border-radius : 10px;
+            color:#ffffff;
+            
+        }
+
+        footer {
+            position: absolute;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Python: A Beginner's Handy</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="c_layout.html">C Langauge</a></li>
+                <li><a href="cpp_layout.html">C++ Language</a></li>
+                <li><a href="mysql_layout.html">MySQL</a></li>
+                <li><a href="python_layout.html">Python</a></li>
+                <li><a href="javascript_layout.html">Javascript</a></li>
+           </ul>     
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <ul>
+                    <img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Emblem-700x394.png" width="310" height="200">
+                    <li><h3>Contents:</h3></li>
+                    <li>Introduction to Python:</li>
+                    <li>Why should one learn Python?:</li>
+                    <li>Access reference Notes:</li>
+                    <h3>Other Languages that are covered on The Programmer's Basket:</h3>
+                    <h5>
+                     <li><a href="c_layout.html">C Langauge</a></li>
+                     <li><a href="cpp_layout.html">C++ Language</a></li>
+                     <li><a href="mysql_layout.html">MySQL</a></li>
+                     <li><a href="javascript_layout.html">Javascript</a></li>
+                    </h5>
+                    <br><br>
+                    <a href="faq.html"><h3>Have a Doubt??</h3></a>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Introduction to Python:</h2>
+                <p>Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of their features support functional programming and aspect-oriented programming (including metaprogramming and metaobjects).Many other paradigms are supported via extensions, including design by contract and logic programming.Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management.It uses dynamic name resolution (late binding), which binds method and variable names during program execution.Its design offers some support for functional programming in the Lisp tradition. It has filter,mapandreduce functions; list comprehensions, dictionaries, sets, and generator expressions.The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML.</p>
+                <p>Python can serve as a scripting language for web applications, e.g. via mod_wsgi for the Apache webserver. With Web Server Gateway Interface, a standard API has evolved to facilitate these applications. Web frameworks like Django, Pylons, Pyramid, TurboGears, web2py, Tornado, Flask, Bottle, and Zope support developers in the design and maintenance of complex applications. Pyjs and IronPython can be used to develop the client-side of Ajax-based applications. SQLAlchemy can be used as a data mapper to a relational database. Twisted is a framework to program communications between computers, and is used (for example) by Dropbox.</p>
+                <p>Inshort, Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented, and functional programming.</p>
+            <h2>Why should one learn Python?</h2>
+                <h4>1.Python Is Beginner-Friendly:</h4> 
+                <p>Why learn Python? For starters, the language is an excellent place to begin if you're new to coding. One of the biggest hurdles for aspiring coders is the daunting task of learning a new language that looks nothing like what they’re used to reading and writing. However, Python features English syntax and was designed to be concise and easy to read — all of which makes it more accessible to first-time coders than many other languages. Python is also easy to learn because it is an interpreted programming language. This means that you can run each line of code once you have finished writing it, allowing you to immediately check it and make adjustments if needed — a big help to those who are still learning and a time-saver for coders everywhere. </p>
+                <h4>2.Python Is Versatile</h4> 
+                <p>Python is highly versatile. You can use it for both small and complex tasks, and it is used across many different industries — from its more common applications in data science and software engineering to environments like mobile app development, artificial intelligence, and machine learning. This multifaceted use is due to the wide array of Python libraries available (over 125,000, to be specific). Libraries are collections of pre-written code in a particular language that anyone can access, meaning that once you’ve learned the basics of Python, you’ll likely be able to understand and use a huge amount of code developed by other programmers.</p>
+                <p>Another important aspect of Python's versatility is its ability to run with other programming languages. A few common examples of Python implementation with other languages are Jython (Python integrated with Java) and CPython (Python integrated with C). Lastly, Python offers cross-platform functionality, meaning that it will function properly whether you’re working with Windows, Linux, or macOS.</p>
+            <div class="documents">
+             <h2>Begin your Python Journey with us!!</h2>
+             <h3>Access Reference Notes for free:</h3>
+             <p>1.Think Python:</p>
+             <p>One of the Bestsellers and a must for beginners!!</p>
+             <p><iframe src="https://drive.google.com/file/d/1AaQffSPfKHp94NiK69-S9BQ6dQOBuS88/view?usp=drive_link&embedded=true" width="600" height="200" style="border:none;"></iframe></p>
+            </div>
+        </div>
+    </div>
+     <footer>
+     <p>&copy; 2024 PBL Project : MIT-WPU SY B.Tech CSE (AI & DS)</p>
+     </footer>
+ </body>
+</html>
