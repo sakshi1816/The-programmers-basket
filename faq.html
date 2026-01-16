@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #00070b;
+            color: #34495e;
+            background-image: url('https://images.app.goo.gl/Ns7CHkvb2v8hkGhs9');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        header, footer{
+            background-color: #03172a;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 1;
+            padding: 5px;
+            text-align: center;
+            background-color: #2c3e50;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 14px 20px;
+        }
+
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav ul li a:hover {
+            background-color: #356ea8;
+            border-radius: 5px;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #8db6df;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(201, 201, 201, 0.1);
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #34495e;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #53e8ca;
+            color: #fff;
+        }
+
+        .faq {
+            width: 70%;
+            margin-left: 5%;
+            background-color: #074551b2;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: #ffffff;
+        }
+
+        .link {
+            text-align: center;
+            color: #fff;
+        }
+
+        button:hover{
+            background-color: #356ea8;
+            border-radius: 5px;
+        }
+
+        footer {
+            position: absolute;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>The Programmer's Basket</h1>
+        <p><i>One stop spot to enrich <strong>YOUR</strong> Programming skills</i></p>
+    </header>
+
+    <nav>
+        <ul>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="c_layout.html">C Langauge</a></li>
+                <li><a href="cpp_layout.html">C++ Language</a></li>
+                <li><a href="mysql_layout.html">MySQL</a></li>
+                <li><a href="python_layout.html">Python</a></li>
+                <li><a href="javascript_layout.html">Javascript</a></li>
+           </ul>     
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <ul>
+                    
+                    <li><h3>Contents:</h3></li>
+                    <li>Frequently Asked Questions:</li>
+                    <br>
+                    <li>
+                        <h4>C Language:</h4>
+                        <ul>
+                            <li>Pointers in C language</li>
+                            <li>Scope of a variable</li>
+                            <li>Recursion in C</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>C++ language:</h4>
+                        <ul>
+                            <li>Classes and Objects in C++</li>
+                            <li>Function Overriding</li>
+                            <li>Virtual Destructor</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Pyhton Programming:</h4>
+                        <ul>
+                            <li>Python:Compiled or Interpreted Language</li>
+                            <li>Scope of a Python</li>
+                            <li>Iterators in Pyhton</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>MYSQL Commands:</h4>
+                        <ul>
+                            <li>now() and current_date() functions</li>
+                            <li>Use of 'distinct' keyword</li>
+                            <li>delete() and truncate() commands</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Javascript:</h4>
+                        <ul>
+                            <li>Features of JavaScript</li>
+                            <li>Prototypal Inheritance</li>
+                            <li>isNaN() Function</li>
+                        </ul>
+                    </li>
+                    <br><br>
+                    <h3>Languages that are covered on The Programmer's Basket:</h3>
+                    <h5>
+                     <li><a href="c_layout.html">C Langauge</a></li>
+                     <li><a href="cpp_layout.html">C++ Language</a></li>
+                     <li><a href="python_layout.html">Python Language</a></li>
+                     <li><a href="mysql_layout.html">MySQL</a></li>
+                     <li><a href="javascript_layout.html">Javascript</a></li>
+                    </h5>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="faq">
+            <h1>Frequently Asked Questions:</h1>
+            <h2>C Language:</h2>
+            <dl>
+                <strong><dt>Pointers in C language:</dt></strong>
+                <dd>A pointer is defined as a derived data type that can store the address of other C variables or a memory location. We can access and manipulate the data stored in that memory location using pointers.As the pointers in C store the memory addresses, their size is independent of the type of data they are pointing to. This size of pointers in C only depends on the system architecture.The syntax of pointers is similar to the variable declaration in C, but we use the ( * ) dereferencing operator in the pointer declaration.<br><br>The syntax to define a pointer is: <strong>datatype * ptr;</strong></dd>
+                <br>
+                <strong><dt>Scope of a variable:</dt></strong>
+                <dd>Scope in a programming language is the block or a region where a defined variable will have its existence and beyond that region, the variable is automatically destroyed.  Every variable has its defined scope. In simple terms, the scope of a variable is equal to its life in the program. The variable can be declared in three places These are:<br>
+                    <ul>
+                        <li><strong>Local Variables</strong> Inside a given function or a block</li>
+                        <li><strong>Global Variables</strong>: Out of all functions globally inside the program.</li>
+                        <li><strong>Formal Parameters</strong>: In-function parameters only.</li>
+                    </ul>
+                </dd>
+                <br>
+                <strong><dt>Recursion in C:</dt></strong>
+                <dd>Recursion is the process of making the function call itself directly or indirectly. A recursive function solves a particular problem by calling a copy of itself and solving smaller subproblems that sum up the original problems. Recursion helps to reduce the length of code and make it more understandable. The recursive function uses a LIFO ( Last In First Out ) structure like a stack. Every recursive call in the program requires extra space in the stack memory<br></dd>
+            </dl><br>
+
+            <h2>C++ Langauge:</h2>
+            <dl>
+                <strong><dt>What are classes and objects in C++</dt></strong>
+                <dd>A class is a user-defined data type where all the member functions and data members are tailor-made according to demands and requirements in addition to which these all can be accessed with the help of an object. To declare a user-defined data type we use a keyword class.<br><br>An object is an instance of a class and an entity with value and state; In simple terms, it is used as a catalyst or to represent a class member. It may contain different parameters or none.</dd>
+                <br>
+                <strong><dt>What is Function Overriding:</dt></strong>
+                <dd>When a function of the same name, same arguments or parameters, and same return type already present/declared in the base class is used in a derived class is known as Function Overriding. It is an example of Runtime Polymorphism or Late Binding which means the overridden function will be executed at the run time of the execution.</dd>
+                <br>
+                <strong><dt>What is a Virtual Destructor:</dt></strong>
+                <dd>When destroying instances or objects of a derived class using a base class pointer object, a virtual destructor is invoked to free up memory space allocated by the derived class object or instance.<br><br>Virtual destructor guarantees that first the derived class’ destructor is called. Then the base class’s destructor is called to release the space occupied by both destructors in the inheritance class which saves us from the memory leak. It is advised to make your destructor virtual whenever your class is polymorphic.</dd>
+            </dl><br>
+
+            <h2>Python programming:</h2>
+            <dl>
+                <strong><dt>Is Pyhton a Compiled Language or an Interpreted Language?</dt></strong>
+                <dd>Actually, Python is a partially compiled language and partially interpreted language. The compilation part is done first when we execute our code and this will generate byte code internally this byte code gets converted by the Python virtual machine(p.v.m) according to the underlying platform(machine+operating system).</dd>
+                <br>
+                <strong><dt>What is Scope in Python:</dt></strong>
+                <dd>The location where we can find a variable and also access it if required is called the scope of a variable.<br>
+                    <ul>
+                        <li><strong>Python Local variable</strong>: Local variables are those that are initialized within a function and are unique to that function. It cannot be accessed outside of the function.</li>
+                        <li><strong>Global variables</strong>: Global variables are the ones that are defined and declared outside any function and are not specified to any function.</li>
+                        <li><strong>Module-level scope</strong>: It refers to the global objects of the current module accessible in the program.</li>
+                        <li><strong>Outermost scope</strong>: It refers to any built-in names that the program can call. The name referenced is located last among the objects in this scope.</li>
+                    </ul>
+                </dd>
+                <br>
+                <strong><dt>What are Iterators in Python:</dt></strong>
+                <dd>In Python, iterators are used to iterate a group of elements, containers like a list. Iterators are collections of items, and they can be a list, tuples, or a dictionary. Python iterator implements __itr__ and the next() method to iterate the stored elements. We generally use loops to iterate over the collections (list, tuple) in Python.</dd>
+            </dl><br>
+
+            <h2>MySQL Commands:</h2>
+            <dl>
+                <strong><dt>How does now() differ from current_date():</dt></strong>
+                <dd>current year, month, and date with hours, minutes, and seconds is shown by using NOW() command while CURRENT_DATE shows current year current month, and current date.</dd>
+                <br>
+                <strong><dt>What is the use of 'distinct' keyword in MySQL:</dt></strong>
+                <dd>the DISTINCT keyword allows for the removal of all duplicate records and the retrieval of unique records. The DISTINCT keyword is used with the SELECT statement.</dd>
+                <br>
+                <strong><dt>What is Difference between delete and truncate commands in MySQL:</dt></strong>
+                <dd>DELETE Command is used to delete rows from the table depending on given the condition. TRUNCATE command is used to DELETE all rows from the table. DELETE command is a Data Manipulation Language command. TRUNCATE command is a Data Definition Language command.</dd>
+            </dl><br>
+
+            <h2>JavaScript:</h2>
+            <dl>
+                <strong><dt>What are the Features of Javascript</dt></strong>
+                <dd>
+                    <ul>
+                        <li>JavaScript is a lightweight, interpreted programming language.</li>
+                        <li>JavaScript is designed for creating network-centric applications.</li>
+                        <li>JavaScript is complementary to and integrated with Java.</li>
+                        <li>JavaScript is complementary to and integrated with HTML.</li>
+                        <li>JavaScript is open and cross-platform.</li>
+                    </ul>
+                </dd>
+                <br>
+                <strong><dt>What is Prototypal Inhritance:</dt></strong>
+                <dd>Every object has a property called a prototype, where we can add methods to it and when you create another object from these the newly created object will automatically inherit its parent's property.</dd>
+                <br>
+                <strong><dt>What s the use of isNaN Function:</dt></strong>
+                <dd>The number isNan function determines whether the passed value is NaN (Not a number) and is of the type “Number”. In JavaScript, the value NaN is considered a type of number. It returns true if the argument is not a number, else it returns false.</dd>
+            </dl>
+            
+        </div>
+    </div>
+
+    <p class="link"><u><button><a href="query.html">Didn't Find Your Question???</a></button></u></p>
+
+    <footer>
+        <p>&copy; 2024 PBL Project : MIT-WPU SY B.Tech CSE (AI & DS)</p>
+    </footer>
+</body>
+</html>
